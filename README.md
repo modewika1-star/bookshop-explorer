@@ -1,16 +1,67 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚 Bookshop
 
-Currently, two official plugins are available:
+### Discover books, explore details, and browse a bookstore-style experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A React bookstore frontend concept with a home page, book catalog, product details, and account-related screens.
 
-## React Compiler
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=20232A)](https://react.dev/) [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/) [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+## ✨ Features and screens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Area | Description |
+| --- | --- |
+| 🏠 **Home** | Hero section, bookstore benefits, best-seller presentation, and recommended books. |
+| 📖 **Books** | Book listing with category selection and a search field. |
+| 🔍 **Product details** | Book imagery, detail tabs, quantity controls, and favorite state. |
+| 🔐 **Account screens** | Login, sign up, forgot password, reset code, create password, and confirmation pages. |
+| 🧩 **Shared components** | Navigation, hero section, and footer components. |
+
+## 🧭 Routes
+
+| Route | Page |
+| --- | --- |
+| `/` | Home |
+| `/books` | Books catalog |
+| `/product-details` | Product details |
+| `/login` | Login |
+| `/signup` | Sign up |
+| `/forget-password` | Forgot password |
+| `/reset-code` | Reset code |
+| `/create-password` | Create new password |
+| `/password-changed` | Confirmation |
+
+## 🛠️ Technology stack
+
+- React 19, JavaScript, Vite
+- React Router DOM
+- Tailwind CSS 4 and Bootstrap 5
+- Animate.css
+- Local SVG icons and book-image assets
+
+## ⚙️ Run locally
+
+~~~bash
+git clone https://github.com/modewika1-star/t18-bookshop.git
+cd t18-bookshop
+npm install
+npm run dev
+~~~
+
+Build and preview:
+
+~~~bash
+npm run build
+npm run preview
+~~~
+
+## 📌 Project scope
+
+This repository is a frontend bookstore concept. The inspected pages contain sample book data and interface controls. No connected inventory, payment gateway, order processing, or production account backend has been verified.
+
+---
+
+**Repository:** [modewika1-star/t18-bookshop](https://github.com/modewika1-star/t18-bookshop)
