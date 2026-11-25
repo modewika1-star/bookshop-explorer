@@ -2,7 +2,7 @@
 
 # Bookshop | Catalog & Product Discovery
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://bookshop-discovery-2-mjs.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://bookshop-discovery-sand.vercel.app/)
 
 ### Discover books, explore details, and browse a bookstore-style experience.
 
