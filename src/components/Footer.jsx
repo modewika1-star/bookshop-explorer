@@ -10,7 +10,8 @@ function Footer() {
     <footer
       style={{
         width: "100%",
-        height: "370px",
+        minHeight: "370px",
+        height: "auto",
         background: "#332548",
         color: "white",
         marginTop: "80px",
@@ -18,7 +19,7 @@ function Footer() {
     >
       <div
         style={{
-          width: "1320px",
+          width: "min(1320px, calc(100% - 48px))",
           margin: "0 auto",
           paddingTop: "120px",
         }}
@@ -82,29 +83,21 @@ function Footer() {
           }}
         />
 
-        {/* Bottom */}
-        <div
-          style={{
-            marginTop: "25px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <p style={{ color: "#d0d0d0" }}>
-            Developed By EraaSoft © 2024
-          </p>
+        {/* Standard site credit, while keeping the original project credit and language label */}
+        <div className="site-credit-footer" dir="ltr">
+          <span className="site-credit-left">
+            Created by <a href="https://7ijazi.vercel.app/" target="_blank" rel="noopener noreferrer">7ijazi</a>
+          </span>
 
-          <div
-            style={{
-              display: "flex",
-              gap: "10px",
-              alignItems: "center",
-            }}
-          >
-            <img src={earthIcon} width="20" />
-            <span>English</span>
+          <div className="site-credit-center">
+            <span>Developed By EraaSoft © 2024</span>
+            <span className="site-credit-language">
+              <img src={earthIcon} width="20" alt="" />
+              <span>English</span>
+            </span>
           </div>
+
+          <span className="site-credit-right">Made in 2026</span>
         </div>
       </div>
     </footer>
